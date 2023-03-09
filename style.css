@@ -1,0 +1,168 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 50px;
+}
+
+#bloque_header {
+    height: 300px;
+    width: auto;
+    margin: 15px;
+    display:block flex;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjCIyi12JEDZF_UkYAGtUpnWz_coNxxscmsh1fw7qz9GnUupTX70KAZeOtBmQfj08FFfM&usqp=CAU);
+    background-repeat: repeat;
+}
+
+
+#bloque_header_foto {
+    width: 30%;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bloque_header_name {
+    width: 70%;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#marco_foto {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    box-shadow: 15px 15px 40px white;
+}
+
+#name { 
+    font-size: 2.2em;
+    padding: 30px;
+    text-shadow: 6px 6px 10px white;
+    
+}
+
+#sector_navegacion {
+    width: auto;
+    height: 50px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjCIyi12JEDZF_UkYAGtUpnWz_coNxxscmsh1fw7qz9GnUupTX70KAZeOtBmQfj08FFfM&usqp=CAU);
+    background-repeat: repeat;
+}
+
+#links_navegacion {
+    display: inline flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton_navegacion {
+    font-size: 0.5em;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-shadow: 6px 6px 10px white;
+    list-style: none;
+}
+
+.oculta {
+    display: none;
+}
+
+#bloque_c, #bloque_dp, #bloque_hl {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding: 20px;
+    background-color:darkcyan;
+}
+
+#resumen_experiencia {
+    font-size: 0.3em;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-style: solid;
+    border-width: 3px;
+    padding: 15px;
+}
+
+.item_casas {
+    font-size: 0.3em;
+    padding: 15px;
+    list-style: none;
+    text-align: center;
+}
+
+#bloque_form, #bloque_dp {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo_seccion {
+    display: block;
+    font-size: 0.4em;
+    text-align: center;
+    margin: 15px;
+}
+
+
+.info_complementaria {
+    display: block;
+    font-size: 0.25em;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px;
+}
+
+.subtitulo_seccion {
+    font-size: 0.35em;
+    text-align: center;
+    margin: 15px;
+}
+
+
+.titulo_campo {
+    display: block;
+    font-size: 0.3em;
+    margin: 10px;
+    text-align: center;
+}
+
+.ingreso_campo {
+    display: block;
+    height: 30px;
+    margin: 10px;
+    width: 500px;
+    font-size: 0.3em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ingreso_texto {
+    display: block;
+    height: 100px;
+    width: 500px;
+    margin: 10px;
+    font-size: 0.3em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#boton_enviar {
+    display:block;
+    width: 100px;
+    padding: 20px;
+    height: 30px;
+    font-size: 0.3em;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}

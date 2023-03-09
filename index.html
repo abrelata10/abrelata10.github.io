@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johnni Byrd</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="bloque_header" >
+        <div id="bloque_header_foto">
+            <img src="https://randomuser.me/api/portraits/men/31.jpg" id="marco_foto">
+        </div>
+        <div id="bloque_header_name">
+            <h1 id="name">JOHNNI BYRD</h1>
+        </div>
+    </header>   
+    <nav id="sector_navegacion">
+        <ul id="links_navegacion">
+            <li class="boton_navegacion" id="nav_dp">DATOS PERSONALES</li>
+            <li class="boton_navegacion" id="nav_hl">HISTORIA LABORAL</li>
+            <li class="boton_navegacion" id="nav_c">CONTACTO</li>
+        </ul>
+    </nav>
+    <main>
+        <div id="bloque_dp">
+            <h2 class="titulo_seccion">ARQUITECTO</h2>
+            <p class="info_complementaria">Universidad Politecnica de Salamanca</p>
+            <h3 class="subtitulo_seccion">Master en uso de energias renovables y construccion autosustentable</h3>
+            <p class="info_complementaria">Universidad Nacional de Madrid</p>
+            <h3 class="subtitulo_seccion">Master en Arquitectura moderna e innovacion tecnologica</h3>
+            <p class="info_complementaria">Universidad Nacional de Copenhage</p>
+
+            <p id="resumen_experiencia">Tengo una vasta experiencia en el diseño de viviendas modernas,
+                que emplean tecnicas constructivas de vanguardia y que priorizan el cuidado
+                del medio ambiente. Sumado a esto, he recibido distinciones en diversos concursos de 
+                arquitectura sustentable, a nivel mundial. 
+            </p>           
+        </div>
+        <div class="oculta" id="bloque_hl">
+            <h2 class="titulo_seccion">TRABAJOS A DESTACAR POR SU AUTOSUSTENTABILIDAD</h2>
+            <ul>
+                <li class="item_casas">CASA PHILLIP - ESCOCIA</li>
+                <li class="item_casas">CASA PEÑALBA - PORTUGAL</li>
+                <li class="item_casas">CASA ARAOZ - ESPAÑA</li>
+                <li class="item_casas">CASA RAKITIC - CROACIA</li>
+                <li class="item_casas">CASA GUSTAV - FRANCIA</li>
+                <li class="item_casas">CASA CHARLES - PUERTO RICO</li>
+                <li class="item_casas">CASA TUMBEMBE - SUDAFRICA</li>
+                <li class="item_casas">CASA DE LAS AFUERAS - AUSTRALIA</li>
+                <li class="item_casas">CASA ROLON - URUGUAY</li>
+            </ul>
+        </div>
+        <div class="oculta" id="bloque_c">
+            <h2 class="titulo_seccion">FORMULARIO DE CONTACTO</h2>
+            <form action="" method="" id="bloque_form">
+                <label for="nombre" class="titulo_campo">NOMBRE</label>
+                <input type="text" name="nombre" class="ingreso_campo">
+                <label for="apellido" class="titulo_campo">APELLIDO</label>
+                <input type="text" name="apellido" class="ingreso_campo">
+                <label for="nacionalidad" class="titulo_campo">NACIONALIDAD</label>
+                <input type="text" name="nacionalidad" class="ingreso_campo">
+                <label for="profesion" class="titulo_campo">PROFESION</label>
+                <input type="text" name="profesion" class="ingreso_campo">
+                <label for="telefono" class="titulo_campo">TELEFONO</label>
+                <input type="tel" name="telefono" class="ingreso_campo">
+                <label for="email" class="titulo_campo">EMAIL</label>
+                <input type="email" name="email" class="ingreso_campo">
+                <label for="comentario" class="titulo_campo">COMENTARIO</label>
+                <input type="text" name="comentario" id="ingreso_texto">
+                <button id="boton_enviar">ENVIAR</button>
+            </form>
+
+        </div>
+
+    </main>
+
+    <footer></footer>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
